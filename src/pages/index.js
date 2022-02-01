@@ -24,8 +24,7 @@ export default function Home() {
                   <p className="info">
                     I am an aspiring front-end developer with a preference for simple design, aesthetics while using the latest technologies.
                   </p>
-                                </Fade>
-                                <div className="icons">
+                  <p className="icons">
                     <Bounce delay={1000}>
                       <a href="https://github.com/ervandenbosch">
                         <i className="fa fa-github" aria-hidden="true"></i>
@@ -43,11 +42,12 @@ export default function Home() {
             <a href="mailto:ezravdb@gmail.com">
               <i className="fa fa-envelope" aria-hidden="true"></i></a>
           </Bounce>
-                  </div>
-  
+                  </p>
+                  </Fade>
               </div>
 
               <div className="col">
+                <h2>Projects</h2>
                   <div className="projects">
                     {projects.map((item) => (
                       <Fade bottom key={item.name}>

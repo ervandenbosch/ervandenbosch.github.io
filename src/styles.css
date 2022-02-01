@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  --background: #fafbfc;
+  --background: white;
   --text-color: rgba(0, 0, 0, 0.87);
   --link: #3182ce;
   --color: #2e302f;
@@ -34,27 +34,6 @@ body {
   --quote-bg:#efefef;
   --quote-shadow: 0 1px 1px rgba(255,255,255,0.5);
   --photo-text:#676767;
-}
-
-body.dark {
-  --background: #1a202c;
-  --text-color: #bcbcbc;
-  --color: #f7fafc;
-  --link: #63b3ed;
-  --card-bg: rgb(19 24 35);
-  --card-bg-hover: #1f2940;
-  --card-boxshadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  --logo-filter: invert(1);
-  --tag-bg: rgb(62 74 82);
-  --tag-hover-bg: rgb(67 82 95);
-  --tag-color: rgb(156 195 219);
-  --tag-hover-color: rgb(205 225 238);
-  --tag-opacity: 0.5;
-  --info-text: rgb(222 222 222 / 77%);
-  --quote-bg:#343434;
-  --quote-shadow:none;
-  --photo-text:#bcbcbc;
-
 }
 
 @media only screen and (max-width: 680px) {
@@ -102,13 +81,17 @@ Home Page
 
 .container {
   width: 80%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 .row {
   display: flex;
 }
 .col {
   flex: 0 50%;
+}
+
+.col h2 {
+  text-align: center;
 }
 
 .projects {
@@ -120,9 +103,10 @@ Home Page
   margin-top: 15px;
 }
 .card {
-  padding: 0.5em;
+  box-sizing:border-box;
+  padding: 0.7em;
   display: flex;
-  width: 45%;
+  width: 50%;
   height: fit-content;
   text-decoration: none !important;
 }
@@ -200,8 +184,8 @@ header {
   height: 45px;
   line-height: 45px;
   display: flex;
-  justify-content: space-evenly;
-  width: 80%;
+  justify-content: space-between;
+  width: 78%;
   margin: auto;
   border-bottom: 1px solid #5d5b5b;
 }
@@ -241,7 +225,7 @@ header .logo img {
   filter: var(--logo-filter);
 }
 
-.col .icons {
+.col .p.icons {
   margin-top: 18px;
   font-size: 22px;
   cursor: pointer;

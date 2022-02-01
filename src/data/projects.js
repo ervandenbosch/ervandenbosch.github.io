@@ -21,6 +21,18 @@ export const projects = [
     name: "Project title",
     description: "",
     link: "",
-    tags: ["",""]
+    tags: ["HTML", "CSS", "Javascript", "React"]
+  },
+  {
+    name: "Project title",
+    description: "",
+    link: "",
+    tags: ["HTML", "CSS", "Javascript", "React"]
+  },
+  {
+    name: "Project title",
+    description: "",
+    link: "",
+    tags: ["HTML", "CSS", "Javascript", "React"]
   }
 ];

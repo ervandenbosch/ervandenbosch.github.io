@@ -2,6 +2,8 @@ import { projects } from "../data/projects";
 import Head from "next/head";
 import { cdnImage } from "../components/utils";
 import Fade from "react-reveal/Fade";
+import Bounce from "react-reveal/Bounce";
+
 export default function Home() {
   return (
     <>
@@ -20,9 +22,29 @@ export default function Home() {
                   <img src={cdnImage("photo.png", false, "")}  />
                   </div>
                   <p className="info">
-                    I develop web applications with an eye for simple design, aesthetics and user experience.
+                    I am an aspiring front-end developer with a preference for simple design, aesthetics while using the latest technologies.
                   </p>
                                 </Fade>
+                                <div className="icons">
+                    <Bounce delay={1000}>
+                      <a href="https://github.com/ervandenbosch">
+                        <i className="fa fa-github" aria-hidden="true"></i>
+                      </a>
+                    </Bounce>
+                    <Bounce delay={1000}>
+                      <a href="https://www.linkedin.com/in/ezravandenbosch/">
+                        <i
+                          className="fa fa-linkedin-square"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </Bounce>
+                    <Bounce delay={1000}>
+            <a href="mailto:ezravdb@gmail.com">
+              <i className="fa fa-envelope" aria-hidden="true"></i></a>
+          </Bounce>
+                  </div>
+  
               </div>
 
               <div className="col">

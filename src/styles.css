@@ -57,7 +57,7 @@ body.dark {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   body {
     overflow-y: auto !important;
   }
@@ -95,15 +95,14 @@ Home Page
 }
 
 .info {
-  padding: 5px 0px;
+  padding: 8px 0px;
   color: var(--color);
   font-weight: 300;
 }
 
 .container {
   width: 80%;
-  margin: 12px auto;
-  margin-bottom: 0;
+  margin: 30px auto;
 }
 .row {
   display: flex;
@@ -114,15 +113,16 @@ Home Page
 
 .projects {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-y: auto;
   height: 90vh;
-  margin-left:40px;
+  margin-left:30px;
+  margin-top: 15px;
 }
 .card {
-  padding: 1em;
+  padding: 0.5em;
   display: flex;
-  width: 50%;
+  width: 45%;
   height: fit-content;
   text-decoration: none !important;
 }
@@ -156,16 +156,17 @@ Home Page
 .card .info {
   color: var(--info-text);
   text-align: justify;
+  font-size: 14px;
   padding: 5px 0 10px 0;
 }
 .tag {
   display: inline-block;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   line-height: 18px;
   border: 1px solid transparent;
   border-radius: 2em;
-  padding: 0 10px;
+  padding: 0 8px;
   line-height: 22px;
   color: var(--tag-color);
   white-space: nowrap;
@@ -174,7 +175,7 @@ Home Page
   opacity: var(--tag-opacity);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   body {
     overflow-y: auto !important;
   }
@@ -186,7 +187,8 @@ Home Page
   }
   .projects {
     height: auto !important;
-
+    margin-left: 0px;
+    
   }
   .card {
     width: 100%;
@@ -198,15 +200,14 @@ header {
   height: 45px;
   line-height: 45px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 80%;
   margin: auto;
-  border-radius: 2px;
-  border-color: blue;
+  border-bottom: 1px solid #5d5b5b;
 }
 
 header .links {
- margin-right: 20px;
+ 
 }
 header .links ul {
   list-style-type: none;
@@ -215,7 +216,7 @@ header .links ul {
 }
 header .links li {
   display: inline;
-  padding-left: 12px;
+  padding-left: 0px;
 }
 
 header .links li a {
@@ -240,13 +241,12 @@ header .logo img {
   filter: var(--logo-filter);
 }
 
-header .icons {
+.col .icons {
   margin-top: 18px;
-  font-family: "Engagement", cursive;
   font-size: 22px;
   cursor: pointer;
 }
-header .icons a {
+.col .icons a {
   color: var(--color) !important;
   padding-left: 12px;
   font-size: 18px;
@@ -255,9 +255,7 @@ header .icons a {
 @media only screen and (max-width: 600px) {
 .profile-image img{
   height: 200px;
-  margin-top: 10px;
 }
-
 }
 
 .scrollTop {

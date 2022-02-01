@@ -77,6 +77,7 @@ Home Page
   padding: 8px 0px;
   color: var(--color);
   font-weight: 300;
+  text-align: justify;
 }
 
 .container {

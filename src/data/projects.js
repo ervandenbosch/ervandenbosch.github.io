@@ -18,9 +18,9 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript", "React"]
   },
   {
-    name: "Project title",
-    description: "",
-    link: "",
+    name: "Calculator app",
+    description: "A calculator in React with claymorphism design principles.",
+    link: "https://ervandenbosch.github.io/calculator/",
     tags: ["HTML", "CSS", "Javascript", "React"]
   },
   {

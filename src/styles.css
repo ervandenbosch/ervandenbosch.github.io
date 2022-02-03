@@ -110,6 +110,8 @@ Home Page
   width: 50%;
   height: fit-content;
   text-decoration: none !important;
+  cursor: pointer;
+
 }
 .card > div {
   flex: 1 1 auto;

@@ -51,7 +51,7 @@ export default function Home() {
                   <div className="projects">
                     {projects.map((item) => (
                       <Fade bottom key={item.name}>
-                        <a href={item.repo} className="card" >
+                        <a href={item.link} className="card" >
                           <div>
                             <div className="name">{item.name}</div>
                             <div className="info">{item.description}</div>

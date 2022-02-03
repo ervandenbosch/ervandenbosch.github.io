@@ -14,7 +14,7 @@ export const projects = [
   {
     name: "Drum app",
     description: "A simple drum machine in React with claymorphism design principles.",
-    link: "",
+    link: "https://ervandenbosch.github.io/drums/",
     tags: ["HTML", "CSS", "Javascript", "React"]
   },
   {

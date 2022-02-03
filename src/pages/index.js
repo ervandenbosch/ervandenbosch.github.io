@@ -22,7 +22,7 @@ export default function Home() {
                   <img src={cdnImage("photo.png", false, "")}  />
                   </div>
                   <p className="info">
-                    I am an aspiring front-end developer with a preference for simple design, aesthetics while using the latest technologies.
+                    I am an aspiring front-end developer with a preference for clean design while using the latest technologies.
                   </p>
                   <p className="icons">
                     <Bounce delay={1000}>

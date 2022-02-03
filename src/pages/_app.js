@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import Header from "../components/header";
-import "../styles.css";
+import "./index.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

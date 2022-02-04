@@ -39,6 +39,14 @@ export default function Home() {
                       </a>
                     </Bounce>
                     <Bounce delay={1000}>
+                      <a href="https://www.freecodecamp.org/Aestheticdevhttps://www.freecodecamp.org/Aestheticdev">
+                        <i
+                          className="fa fa-free-code-camp"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </Bounce>
+                    <Bounce delay={1000}>
             <a href="mailto:ezravdb@gmail.com">
               <i className="fa fa-envelope" aria-hidden="true"></i></a>
           </Bounce>
@@ -51,7 +59,7 @@ export default function Home() {
                   <div className="projects">
                     {projects.map((item) => (
                       <Fade bottom key={item.name}>
-                        <a href={item.link} className="card" >
+                        <a href={item.link} className="card" target={item.target}>
                           <div>
                             <div className="name">{item.name}</div>
                             <div className="info">{item.description}</div>

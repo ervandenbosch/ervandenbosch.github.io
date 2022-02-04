@@ -8,7 +8,8 @@ export const projects = [
   {
     name: "Recipe app",
     description: "A showcase of API usage to find recipes.",
-    link: "",
+    link: "https://recipe-app-two-pi.vercel.app/",
+    target:"_blank",
     tags: ["API", "nextJS", "React", "tailwindcss"]
   },
   {
@@ -25,13 +26,13 @@ export const projects = [
   },
   {
     name: "Project title",
-    description: "",
+    description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     link: "",
     tags: ["HTML", "CSS", "Javascript", "React"]
   },
   {
     name: "Project title",
-    description: "",
+    description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     link: "",
     tags: ["HTML", "CSS", "Javascript", "React"]
   }

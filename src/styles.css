@@ -93,21 +93,24 @@ Home Page
 
 .col h2 {
   text-align: center;
+  margin: 10px;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   overflow-y: auto;
   height: 80vh;
-  margin-left:30px;
-  margin-top: 15px;
+  margin: 15px 0px 15px 40px;
 }
 .card {
   box-sizing:border-box;
   padding: 0.7em;
   display: flex;
   width: 50%;
+  min-width: 180px;
+  flex-grow:9999;
   text-decoration: none !important;
   cursor: pointer;
 
@@ -161,6 +164,17 @@ Home Page
   opacity: var(--tag-opacity);
 }
 
+footer {
+  background: white;
+  position: relative;
+  height: 40px;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid #5d5b5b;
+  text-align: center;
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 680px) {
   body {
     overflow-y: auto !important;
@@ -174,17 +188,23 @@ Home Page
   .projects {
     height: auto !important;
     margin-left: 0px;
+   
     
   }
   .card {
     width: 100%;
+    
+  }
+
+  footer {
+    position: relative;
+
   }
 }
 
 /** Header **/
 header {
   height: 45px;
-  line-height: 45px;
   display: flex;
   justify-content: space-between;
   width: 78%;

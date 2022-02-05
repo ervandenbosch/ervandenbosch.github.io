@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "NFT Marketplace",
     description: "An NFT Marketplace for the Polygon network. Built with smart contracts and NextJS.",
-    link: "",
+    link: "nft-marketplace-roan.vercel.app",
     tags: ["blockchain", "nextJS", "React", "tailwindcss"]
   },
   {

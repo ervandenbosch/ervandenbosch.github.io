@@ -39,7 +39,7 @@ export default function Home() {
                       </a>
                     </Bounce>
                     <Bounce delay={1000}>
-                      <a href="https://www.freecodecamp.org/Aestheticdevhttps://www.freecodecamp.org/Aestheticdev">
+                      <a href="https://www.freecodecamp.org/Aestheticdev">
                         <i
                           className="fa fa-free-code-camp"
                           aria-hidden="true"

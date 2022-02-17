@@ -25,10 +25,10 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript", "React"]
   },
   {
-    name: "Project title",
-    description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    link: "",
-    tags: ["HTML", "CSS", "Javascript", "React"]
+    name: "Restaurant website",
+    description: "Restaurant website made in CMS Wordpress.",
+    link: "https://cotam.nl",
+    tags: ["Wordpress", "HTML", "CSS", "CMS"]
   },
   {
     name: "Project title",

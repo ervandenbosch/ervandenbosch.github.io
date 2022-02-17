@@ -30,11 +30,5 @@ export const projects = [
     link: "https://cotam.nl",
     target:"_blank",
     tags: ["Wordpress", "HTML", "CSS", "CMS"]
-  },
-  {
-    name: "Project title",
-    description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    link: "",
-    tags: ["HTML", "CSS", "Javascript", "React"]
   }
 ];

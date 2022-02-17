@@ -28,6 +28,7 @@ export const projects = [
     name: "Restaurant website",
     description: "Restaurant website made in CMS Wordpress.",
     link: "https://cotam.nl",
+    target:"_blank",
     tags: ["Wordpress", "HTML", "CSS", "CMS"]
   },
   {

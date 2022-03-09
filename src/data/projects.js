@@ -34,7 +34,7 @@ export const projects = [
     tags: ["Wordpress", "HTML", "CSS", "CMS"],
   },
   {
-    name: "Restaurant website",
+    name: "Restaurant website (remake)",
     description: "Restaurant website made in NextJS.",
     link: "https://co-tam.vercel.app/",
     target: "_blank",

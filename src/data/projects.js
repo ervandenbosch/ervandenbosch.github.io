@@ -28,13 +28,6 @@ export const projects = [
   },
   {
     name: "Restaurant website",
-    description: "Restaurant website made in CMS Wordpress.",
-    link: "https://cotam.nl",
-    target: "_blank",
-    tags: ["Wordpress", "HTML", "CSS", "CMS"],
-  },
-  {
-    name: "Restaurant website (remake)",
     description: "Restaurant website made in NextJS.",
     link: "https://co-tam.vercel.app/",
     target: "_blank",
